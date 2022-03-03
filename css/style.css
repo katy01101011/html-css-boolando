@@ -6,6 +6,48 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: lime;
+
+/* Main */
+
+main {
+
+    border: 1px solid red;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Products hover */
+
+.row {
+    margin-top: 1em;
+}
+
+.container {
+    display: inline-block;
+    width: calc(100% / 3 - 4px);
+}
+
+.normal {
+    width: 100%;
+}
+
+.none {
+    width: 100%;
+    display: none;
+}
+
+.container:hover .none {
+    display: inline-block;
+}
+
+.container:hover .normal {
+    display: none;
+}
+
+
+
+footer {
+    height: 3em;
 }
