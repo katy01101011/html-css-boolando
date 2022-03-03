@@ -44,6 +44,11 @@ main {
 
 .container:hover .none {
     display: inline-block;
+    z-index: -1;
+    background: white;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6; 
 }
 
 .container:hover .normal {
