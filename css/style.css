@@ -27,6 +27,7 @@ main {
 .container {
     display: inline-block;
     width: calc(100% / 3 - 4px);
+    position: relative;
 }
 
 .normal {
@@ -44,6 +45,17 @@ main {
 
 .container:hover .normal {
     display: none;
+}
+
+
+/* Hearts */
+#heart {
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    padding: .5em;
+    top: 1em;
+    right: 0;
 }
 
 
